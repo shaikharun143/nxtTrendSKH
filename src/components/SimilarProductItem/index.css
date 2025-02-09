@@ -1,0 +1,162 @@
+/* Write your CSS here */
+
+.list-item-similar {
+  height: 280px;
+  width: 190px;
+
+  margin: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.item-image {
+  height: 170px;
+  width: 170px;
+  border-radius: 10px;
+}
+
+.title-para-item {
+  font-size: 14px;
+  font-family: 'Roboto';
+  color: #12022f;
+  font-weight: bold;
+  margin: 0px;
+  margin-top: 15px;
+  align-self: flex-start;
+  padding-left: 10px;
+  margin-bottom: 10px;
+}
+
+.brand-para-item {
+  font-size: 14px;
+  font-family: 'Roboto';
+  color: #616e7c;
+  margin: 0px;
+  align-self: flex-start;
+  padding-left: 10px;
+}
+
+.price-rating-container-list {
+  padding-left: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  height: 40px;
+  width: 90%;
+  margin-top: 20px;
+}
+
+.price-para-list {
+  font-size: 15px;
+  font-family: 'Roboto';
+  color: #12022f;
+  font-weight: bold;
+  margin: 0px;
+}
+
+.rating-star-container-list {
+  height: 25px;
+  width: 55px;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #3b82f6;
+}
+
+.rating-para-list {
+  font-family: 'Roboto';
+  font-size: 12px;
+  font-weight: bold;
+  color: #ffffff;
+}
+
+.star-img-list {
+  height: 15px;
+  width: 15px;
+}
+
+@media screen and (max-width: 768px) {
+  .list-item-similar {
+    height: 280px;
+    width: 190px;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .item-image {
+    height: 170px;
+    width: 170px;
+    border-radius: 10px;
+  }
+
+  .title-para-item {
+    font-size: 14px;
+    font-family: 'Roboto';
+    color: #12022f;
+    font-weight: bold;
+    margin: 0px;
+    margin-top: 15px;
+    align-self: flex-start;
+    padding-left: 10px;
+    margin-bottom: 10px;
+  }
+
+  .brand-para-item {
+    font-size: 14px;
+    font-family: 'Roboto';
+    color: #616e7c;
+    margin: 0px;
+    align-self: flex-start;
+    padding-left: 10px;
+  }
+
+  .price-rating-container-list {
+    padding-left: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 40px;
+    width: 90%;
+    margin-top: 20px;
+  }
+
+  .price-para-list {
+    font-size: 15px;
+    font-family: 'Roboto';
+    color: #12022f;
+    font-weight: bold;
+    margin: 0px;
+  }
+
+  .rating-star-container-list {
+    height: 25px;
+    width: 55px;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #3b82f6;
+  }
+
+  .rating-para-list {
+    font-family: 'Roboto';
+    font-size: 12px;
+    font-weight: bold;
+    color: #ffffff;
+  }
+
+  .star-img-list {
+    height: 15px;
+    width: 15px;
+  }
+}
